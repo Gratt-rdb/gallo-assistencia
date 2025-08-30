@@ -1,0 +1,59 @@
+2025-08-17T16:32:38.7329415Z Current runner version: '2.327.1'
+2025-08-17T16:32:38.7353460Z ##[group]Operating System
+2025-08-17T16:32:38.7354219Z Ubuntu
+2025-08-17T16:32:38.7354792Z 24.04.2
+2025-08-17T16:32:38.7355259Z LTS
+2025-08-17T16:32:38.7355689Z ##[endgroup]
+2025-08-17T16:32:38.7356270Z ##[group]Runner Image
+2025-08-17T16:32:38.7356832Z Image: ubuntu-24.04
+2025-08-17T16:32:38.7357353Z Version: 20250810.1.0
+2025-08-17T16:32:38.7358453Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250810.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-08-17T16:32:38.7359804Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250810.1
+2025-08-17T16:32:38.7360712Z ##[endgroup]
+2025-08-17T16:32:38.7361234Z ##[group]Runner Image Provisioner
+2025-08-17T16:32:38.7361863Z 2.0.449.1
+2025-08-17T16:32:38.7362278Z ##[endgroup]
+2025-08-17T16:32:38.7363586Z ##[group]GITHUB_TOKEN Permissions
+2025-08-17T16:32:38.7365434Z Contents: read
+2025-08-17T16:32:38.7365962Z Metadata: read
+2025-08-17T16:32:38.7366769Z Pages: write
+2025-08-17T16:32:38.7367291Z ##[endgroup]
+2025-08-17T16:32:38.7369330Z Secret source: Actions
+2025-08-17T16:32:38.7369972Z Prepare workflow directory
+2025-08-17T16:32:38.7688439Z Prepare all required actions
+2025-08-17T16:32:38.7724897Z Getting action download info
+2025-08-17T16:32:39.2074005Z Download action repository 'actions/deploy-pages@v4' (SHA:d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e)
+2025-08-17T16:32:39.9008647Z Complete job name: deploy
+2025-08-17T16:32:39.9724161Z ##[group]Run actions/deploy-pages@v4
+2025-08-17T16:32:39.9725092Z with:
+2025-08-17T16:32:39.9725654Z   token: ***
+2025-08-17T16:32:39.9726055Z   timeout: 600000
+2025-08-17T16:32:39.9726458Z   error_count: 10
+2025-08-17T16:32:39.9726870Z   reporting_interval: 5000
+2025-08-17T16:32:39.9727356Z   artifact_name: github-pages
+2025-08-17T16:32:39.9727820Z   preview: false
+2025-08-17T16:32:39.9728434Z ##[endgroup]
+2025-08-17T16:32:40.6279619Z Fetching artifact metadata for "github-pages" in this workflow run
+2025-08-17T16:32:40.8745647Z Found 1 artifact(s)
+2025-08-17T16:32:40.8808624Z Creating Pages deployment with payload:
+2025-08-17T16:32:40.8809875Z {
+2025-08-17T16:32:40.8810532Z 	"artifact_id": 3783316905,
+2025-08-17T16:32:40.8811708Z 	"pages_build_version": "1ef53a6c5a50363c08a2aaa596ba7d3f32f65188",
+2025-08-17T16:32:40.8944884Z 	"oidc_token": "***"
+2025-08-17T16:32:40.8945677Z }
+2025-08-17T16:32:41.2134325Z Created deployment for 1ef53a6c5a50363c08a2aaa596ba7d3f32f65188, ID: 1ef53a6c5a50363c08a2aaa596ba7d3f32f65188
+2025-08-17T16:32:46.2154882Z Getting Pages deployment status...
+2025-08-17T16:32:46.4812958Z Current status: deployment_queued
+2025-08-17T16:32:51.4811418Z Getting Pages deployment status...
+2025-08-17T16:32:51.6872984Z Current status: deployment_queued
+2025-08-17T16:32:56.6871764Z Getting Pages deployment status...
+2025-08-17T16:32:56.9346875Z Current status: deployment_queued
+2025-08-17T16:33:01.9352972Z Getting Pages deployment status...
+2025-08-17T16:33:02.1476628Z Current status: deployment_queued
+2025-08-17T16:33:07.1482781Z Getting Pages deployment status...
+2025-08-17T16:33:07.4193983Z Current status: deployment_queued
+2025-08-17T16:33:12.4198520Z Getting Pages deployment status...
+2025-08-17T16:33:12.6085299Z Reported success!
+2025-08-17T16:33:12.6295854Z Evaluate and set environment url
+2025-08-17T16:33:12.6300307Z Evaluated environment url: https://gratt-rdb.github.io/gallo-assistencia/
+2025-08-17T16:33:12.6301204Z Cleaning up orphan processes
